@@ -1,0 +1,63 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Test, coverage, and type-checker artifacts
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.mypy_cache/
+.pyre/
+.ruff_cache/
+.pyright/
+
+# Packaging and build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Environment files and local secrets
+.env
+.env.*
+!.env.example
+*.secret
+*.key
+
+# Jupyter temporary files and checkpoints
+.ipynb_checkpoints/
+
+# Streamlit local state
+.streamlit/secrets.toml
+
+# Logs and local runtime files
+*.log
+*.pid
+*.pid.lock
+
+# Local databases and generated data
+*.db
+*.sqlite
+*.sqlite3
+
+# IDE/editor and OS files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Project-specific generated notebook
+wikipedia_api.ipynb
