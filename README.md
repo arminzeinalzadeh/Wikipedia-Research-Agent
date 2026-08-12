@@ -42,16 +42,16 @@ The agent uses **three specialised tools** to answer factual questions:
 ┌─────────────────┐
 │   LangGraph     │  (State machine with tools)
 │   ┌───────────┐ │
-│   │  Agent    │ │  (LLM + system prompt)
+│   │   Agent   │ │  (LLM + system prompt)
 │   └─────┬─────┘ │
 │         │       │
-│   ┌──────┐      │
-│   │  ToolNode │ │  (Executes tool calls)
+│   ┌───────────┐ │
+│   │ ToolNode │ │  (Executes tool calls)
 │   └───────────┘ │
 └─────────────────┘
          │
 ┌─────────────────┐
-│  Wikipedia API   │  (via wikipediaapi library)
+│  Wikipedia API  │  (via wikipediaapi library)
 └─────────────────┘
 ```
 
