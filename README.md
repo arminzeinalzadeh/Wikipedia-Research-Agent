@@ -46,7 +46,7 @@ The agent uses **three specialised tools** to answer factual questions:
 │   └─────┬─────┘ │
 │         │       │
 │   ┌───────────┐ │
-│   │ ToolNode │ │  (Executes tool calls)
+│   │ ToolNode  │ │  (Executes tool calls)
 │   └───────────┘ │
 └─────────────────┘
          │
